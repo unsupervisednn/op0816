@@ -1311,6 +1311,7 @@ FW_VERSIONS = {
     ],
     (Ecu.eps, 0x7d4, None): [
       b'\xf1\x00NX4 MDPS C 1.00 1.01 56300-P0100 2228',
+      b'\xf1\x00NX4 MDPS C 1.00 1.05 56300-P0000 1514',
     ],
     (Ecu.engine, 0x7e0, None): [
       b'\xf1\x87391312MND0',
@@ -1318,6 +1319,9 @@ FW_VERSIONS = {
     (Ecu.transmission, 0x7e1, None): [
       b'\xf1\x00PSBG2441  G19_Rev\x00\x00\x00SNX4T16XXHS01NS2lS\xdfa',
       b'\xf1\x8795441-3D220\x00\xf1\x81G19_Rev\x00\x00\x00\xf1\x00PSBG2441  G19_Rev\x00\x00\x00SNX4T16XXHS01NS2lS\xdfa',
+      b'\xf1\x8795441-3D220\x00\xf1\x89G15\x00\x00\x00\x00\x00\x00\x00\xf1\x82SNX4T16XXHG15NS1',
+      b'\xf1\x8795441-3D220\x00\xf1\x81G15\x00\x00\x00\x00\x00\x00\x00\xf1\x00PSBG2441  G15\x00\x00\x00\x00\x00\x00\x00SNX4T16XXHG15NS1\x06\xe1$\x9e',
+      b'\xf1\x00PSBG2441  G15\x00\x00\x00\x00\x00\x00\x00SNX4T16XXHG15NS1\x06\xe1$\x9e',
     ],
   },
 }
